@@ -5,8 +5,13 @@ fun main() {
     val x = true
     val y = false
 
-    println("x && y = ${x && y}")
-    println("x || y = ${x || y}")
-    println("!y = ${!y}")
+    // Logical And
+    println("x && y = ${x && y}") // False
+
+    // Logical Or
+    println("x || y = ${x || y}") // True
+
+    // Logical Not
+    println("!y = ${!y}") // True
 
 }
